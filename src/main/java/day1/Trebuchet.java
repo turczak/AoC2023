@@ -1,7 +1,7 @@
-package utils;
+package day1;
 import java.util.List;
 
-public class StringConverter {
+public class Trebuchet {
 
     public int sumAllNumbersInFile(List<String> input){
         int sum = 0;

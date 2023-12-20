@@ -1,4 +1,4 @@
-import utils.StringConverter;
+import day1.Trebuchet;
 import utils.MyFileReader;
 
 import java.io.File;
@@ -13,6 +13,6 @@ public class Main {
         //Day1 part I
         fileReader.setFile(new File("src/main/resources/day1.txt"));
         List<String> lines = fileReader.linesAsListOfStrings();
-        System.out.println("Day 1, part I answer: " + new StringConverter().sumAllNumbersInFile(lines));
+        System.out.println("Day 1, part I answer: " + new Trebuchet().sumAllNumbersInFile(lines));
     }
 }
